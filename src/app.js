@@ -8,14 +8,14 @@ import "./assets/img/4geeks.ico";
 window.onload = function() {
   //write your code here
 
-  let who = [
+  let whoArr = [
     "My dog",
     "The neighbor",
     "My little brother",
     "A band of monkeys",
     "My cat"
   ];
-  let action = [
+  let actionArr = [
     "ate",
     "broke",
     "stole",
@@ -24,7 +24,7 @@ window.onload = function() {
     "stained",
     "blow up"
   ];
-  let what = [
+  let whatArr = [
     "my homework",
     "my car",
     "my computer",
@@ -32,7 +32,7 @@ window.onload = function() {
     "the report",
     "the papers"
   ];
-  let when = [
+  let whenArr = [
     "last night",
     "this morning",
     "a while ago",
@@ -43,7 +43,7 @@ window.onload = function() {
     "while I was praying"
   ];
 
-  let excuseBody = [who, action, what, when];
+  let excuseBody = [whoArr, actionArr, whatArr, whenArr];
 
   function getValue(arr) {
     let option = Math.floor(Math.random() * arr.length);
